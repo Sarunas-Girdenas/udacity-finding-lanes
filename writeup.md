@@ -9,7 +9,7 @@ The goals of this project are the following:
 * Make a pipeline that finds lane lines on the road
 * Reflect on your work in a written report
 
-[Test Image Output](https://github.com/Sarunas-Girdenas/udacity-finding-lanes/blob/master/test_images_output/solidWhiteRight.jpg)
+![Test Image Output](https://github.com/Sarunas-Girdenas/udacity-finding-lanes/blob/master/test_images_output/solidWhiteRight.jpg)
 
 ### Reflection
 
