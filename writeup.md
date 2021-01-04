@@ -9,7 +9,7 @@ The goals of this project are the following:
 * Make a pipeline that finds lane lines on the road
 * Reflect on your work in a written report
 
-[Test Image Output](https://github.com/Sarunas-Girdenas/udacity-finding-lanes/blob/master/test_images_output/solidWhiteRight.jpg)
+![Test Image Output](https://github.com/Sarunas-Girdenas/udacity-finding-lanes/blob/master/test_images_output/solidWhiteRight.jpg)
 
 ### Reflection
 
@@ -50,7 +50,7 @@ to that particular region only in step 4. Then in step 5 we use Hough transform 
 
 **Changes to `draw_lines()`**
 
-As suggested, I've changed `draw)_lines()` in the following way:
+As suggested, I've changed `draw_lines()` in the following way:
 1. For each pair of points (x1, x2, y1, y2) given by Hough Transform we calculate slope and intercept.
 2. Then we make sure that those points are in valid range (less/more than +/- infinity) and not _too_ small.
 3. For each positive and negative slopes, we calculate average values.
